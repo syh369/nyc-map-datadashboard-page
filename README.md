@@ -26,7 +26,7 @@ After downloading the project from the repository, you can start development wit
 Contributors names and contact info
 
 Yuanhao Shen  
-[@ys3609](mailto:ys3609@columbia.edu)
+[ys3609@columbia.edu](mailto:ys3609@columbia.edu)
 
 ## Version History
 
