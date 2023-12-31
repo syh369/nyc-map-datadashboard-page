@@ -96,7 +96,7 @@ export default function Page() {
           color="#ffffff"
           component="p"
         >
-          Nees Some texts for footer purpose
+          Credited to Urban Hybrid Twin From Columbia University
         </Typography>
         <Copyright />
       </Box>

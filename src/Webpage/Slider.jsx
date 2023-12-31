@@ -11,17 +11,19 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 const steps = [
   {
     label: 'COVID-19 Dashboard',
-    description: `Write a description for COVID-19 Dashboard`,
+    description: `To view Covid-19 data, select a region by clicking a region on the map or 
+                  select a zipcode from the address dropdown list. 
+                  Then, specify a date between() from the date selection field.`,
   },
   {
     label: 'Weather Dashboard',
-    description:
-      'Write a description for Weather Dashboard',
+    description:`To view Weather data, select a region by clicking a region on the map or select a zipcode from the address dropdown list. 
+                Then, specify a date from the date selection field.`,
   },
-  {
-    label: 'Bus Rounte Dashboard',
-    description: `Write a description for Weather Dashboard`,
-  },
+  // {
+  //   label: 'Bus Rounte Dashboard',
+  //   description: `Write a description for Weather Dashboard`,
+  // },
 ];
 
 export default function TextMobileStepper() {
@@ -50,10 +52,12 @@ export default function TextMobileStepper() {
           bgcolor: 'background.default',
         }}
       >
-        <Typography>{steps[activeStep].label}</Typography>
+        <Typography variant="h6" align="center">{steps[activeStep].label}</Typography>
       </Paper>
-      <Box sx={{ height: 255, maxWidth: 400, width: '100%', p: 2 }}>
+      <Box sx={{ height: 255, maxWidth: 800, width: '100%', p: 2 }}>
+        <Typography inline variant="body1" align="left">
         {steps[activeStep].description}
+        </Typography>
       </Box>
       <MobileStepper
         variant="text"
