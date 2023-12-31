@@ -21,19 +21,12 @@ After downloading the project from the repository, you can start development wit
 * npm install
 * npm run dev
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
 Contributors names and contact info
 
-ex. Yuanhao Shen  
-ex. [@ys3609](ys3609@columbia.edu)
+Yuanhao Shen  
+[@ys3609](mailto:ys3609@columbia.edu)
 
 ## Version History
 
