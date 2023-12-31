@@ -4,7 +4,9 @@ Developed with Vite and React.
 
 ## Description
 
-This repository contains the frontend project of the NYC Datadashboard with leaflet map and automated deployment of hosting the application on Github Page.
+This repository contains the frontend project of the NYC Datadashboard with leaflet map and automated deployment of hosting the application on the GitHub Page.
+
+Webpage link: [NYC Datadashboard](https://syh369.github.io/nyc-map-datadashboard-page/)
 
 ## Getting Started
 
