@@ -30,9 +30,4 @@ Contributors names and contact info
 Yuanhao Shen  
 [ys3609@columbia.edu](mailto:ys3609@columbia.edu)
 
-## Version History
-
-* 0.1
-    * Initial Release
-
 ## Acknowledgments
