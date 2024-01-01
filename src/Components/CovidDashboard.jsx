@@ -66,7 +66,7 @@ const CovidDashboard = ({neighborData, selectedRegion}) => {
     const handleFetchData = () => {
         setLoading(true);
         
-        const apiEndpoint = `http://128.59.151.24:8003/covid/zipcode_dates/?date=${encodeURIComponent(selectedDate)}&zip_code=${encodeURIComponent(autocompleteInput)}`;
+        const apiEndpoint = `https://backend2024.ddns.net/covid/zipcode_dates/?date=${encodeURIComponent(selectedDate)}&zip_code=${encodeURIComponent(autocompleteInput)}`;
             
         console.log(apiEndpoint)
 
