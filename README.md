@@ -12,16 +12,16 @@ Webpage link: [NYC Datadashboard](https://syh369.github.io/nyc-map-datadashboard
 
 ### Dependencies
 
-* MUI
-* Leaflet
-* React-leaflet
+- MUI
+- Leaflet
+- React-leaflet
 
 ### Development
 
 After downloading the project from the repository, you can start development with the following cmds.
 
-* npm install
-* npm run dev
+- npm install
+- npm run dev
 
 ## Authors
 
@@ -32,7 +32,7 @@ Yuanhao Shen
 
 ## Version History
 
-* 0.1
-    * Initial Release
+- 0.1
+  - Initial Release
 
 ## Acknowledgments
