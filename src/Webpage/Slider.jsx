@@ -13,7 +13,7 @@ const steps = [
     label: 'COVID-19 Dashboard',
     description: `To view Covid-19 data, select a region by clicking a region on the map or 
                   select a zipcode from the address dropdown list. 
-                  Then, specify a date between() from the date selection field.`,
+                  Then, specify a date between(2020/08/10 - 2022/04/25) from the date selection field.`,
   },
   {
     label: 'Weather Dashboard',
