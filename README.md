@@ -1,8 +1,38 @@
-# React + Vite
+# NYC Datadashboard with leaflet map
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Developed with Vite and React.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains the frontend project of the NYC Datadashboard with leaflet map and automated deployment of hosting the application on the GitHub Page.
+
+Webpage link: [NYC Datadashboard](https://syh369.github.io/nyc-map-datadashboard-page/)
+
+## Getting Started
+
+### Dependencies
+
+* MUI
+* Leaflet
+* React-leaflet
+
+### Development
+
+After downloading the project from the repository, you can start development with the following cmds.
+
+* npm install
+* npm run dev
+
+## Authors
+
+Contributors names and contact info
+
+Yuanhao Shen  
+[ys3609@columbia.edu](mailto:ys3609@columbia.edu)
+
+## Version History
+
+* 0.1
+    * Initial Release
+
+## Acknowledgments
