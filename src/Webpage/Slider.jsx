@@ -56,7 +56,7 @@ export default function TextMobileStepper() {
       </Paper>
       <Box sx={{ height: 255, maxWidth: 800, width: '100%', p: 2 }}>
         <Typography inline variant="body1" align="left">
-        {steps[activeStep].description}
+          {steps[activeStep].description}
         </Typography>
       </Box>
       <MobileStepper

@@ -55,7 +55,7 @@ const Dashboards = ({ neighborData, selectedRegion }) => {
     };
   
     return (
-      <Box style={{ background: '#f2f6fc', width: '50vw', height: '75vh'}}>
+      <Box style={{ background: '#f2f6fc', width: '40vw', height: '75vh', overflow: 'scroll'}}>
         <AppBar position="relative" style={{background: 'inherit'}}>
             <Tabs
                 value={tabIndex}

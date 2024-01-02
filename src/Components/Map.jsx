@@ -64,7 +64,7 @@ function Map({neighborData, onRegionSelect}) {
 
 
   return (
-    <MapContainer center={[40.754932, -73.984016]} zoom={11.5} style={{ height: '75vh', width: '50vw' }}>
+    <MapContainer center={[40.754932, -73.984016]} zoom={11.5} style={{ height: '75vh', width: '40vw' }}>
       <TileLayer
         ext='png'
         url = {tileURL}

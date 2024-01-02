@@ -8,10 +8,13 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
+import Alert from '@mui/material/Alert';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import UIStack from '../Components/UIStack';
 import TextMobileStepper from './Slider';
+import { Paper } from '@mui/material';
+//import './Page.css';
 
 function Copyright() {
   return (
@@ -75,21 +78,27 @@ export default function Page() {
             
           </Container>
         </Box>
-        <Container sx={{ py: 8 }} maxWidth="lg">
+
+        <Box  display="flex"
+              justifyContent="center"
+              alignItems="center"
+              sx={{
+                bgcolor: 'background.paper',
+                pt: 8,
+                pb: 6,
+        }}>
           {/* End hero unit */}
-          <Grid container spacing={4}>
             {/* Replace this part with your Dashboard component */}
-            <Grid item xs={12}>
-              <UIStack />
-            </Grid>
-          </Grid>
-        </Container>
+            <div className = 'mapDashboardShow mapDashboardHide'><UIStack/></div>
+            <div className = 'notificationShow notificationHide'>
+              <Box>
+                  <Alert severity="warning">Please view the dashboard on PC</Alert>
+              </Box>
+            </div>
+        </Box>
       </main>
       {/* Footer */}
       <Box sx={{ bgcolor: '#1D4F91', p: 6 }} component="footer">
-        <Typography variant="h6" align="center" color="#ffffff" gutterBottom>
-          Footer
-        </Typography>
         <Typography
           variant="subtitle1"
           align="center"
