@@ -72,7 +72,10 @@ const CovidDashboard = ({neighborData, selectedRegion}) => {
 
         try{
             // Make the API call
-            fetch(apiEndpoint)
+            fetch(apiEndpoint, {
+                mode: 'no-cors',
+                method: 'GET'
+            })
                 .then((response) => response.json())
                 .then(
                     setTimeout(() => {
