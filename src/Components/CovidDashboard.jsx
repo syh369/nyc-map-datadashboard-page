@@ -65,6 +65,10 @@ const CovidDashboard = ({neighborData, selectedRegion}) => {
     // Simulate fetching data based on the input (replace with actual API call)
     const handleFetchData = () => {
         setLoading(true);
+
+        let headers = {
+            "Content-Type": "application/json"
+        }
         
         const apiEndpoint = `https://backend2024.ddns.net/covid/zipcode_dates/?date=${encodeURIComponent(selectedDate)}&zip_code=${encodeURIComponent(autocompleteInput)}`;
             
@@ -73,7 +77,10 @@ const CovidDashboard = ({neighborData, selectedRegion}) => {
         try{
             // Make the API call
             fetch(apiEndpoint, {
-                method: 'GET'
+                mode: 'cors',
+                method: 'GET',
+                headers: headers,
+                credentials: "include"
                 })
                 .then((response) => {console.log(response)})
                 .then(
