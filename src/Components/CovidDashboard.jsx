@@ -67,7 +67,7 @@ const CovidDashboard = ({neighborData, selectedRegion}) => {
         setLoading(true);
 
         let headers = {
-            "Content-Type": "application/json"
+            "Content-Type": "text/plain"
         }
         
         const apiEndpoint = `https://backend2024.ddns.net/covid/zipcode_dates/?date=${encodeURIComponent(selectedDate)}&zip_code=${encodeURIComponent(autocompleteInput)}`;
@@ -80,9 +80,8 @@ const CovidDashboard = ({neighborData, selectedRegion}) => {
                 mode: 'cors',
                 method: 'GET',
                 headers: headers,
-                credentials: "include"
                 })
-                .then((response) => {console.log(response)})
+                .then((response) => response.json())
                 .then(
                     setTimeout(() => {
                         setLoading(false);
